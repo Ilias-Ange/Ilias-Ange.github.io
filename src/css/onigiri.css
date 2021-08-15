@@ -4,5 +4,5 @@
 }
 .route-menu li {
     float: left;
-    padding: 20px 40px;
+    list-style: none;
 }
