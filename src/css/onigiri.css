@@ -1,9 +1,43 @@
+body {
+    background-color: blanchedalmond;
+}
+
 .header {
-    background-color: burlywood;
+    background-color: rgb(89, 155, 133);
     height: 60px;
 }
 .route-menu li {
     float: left;
     list-style: none;
     padding: 33px 20px;
+}
+
+.main {
+    padding: 200px 120px;
+}
+
+
+section.container {
+    /*background-color: aquamarine;*/
+    justify-items: center;
+    align-items: start;
+    border: none;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 2fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-bottom: 20px;
+}
+
+[id^="R"] {
+    background-color: lawngreen;
+    border-radius: 20px;
+}
+
+section.container img {
+    width: 220px;
+    height: 220px;
+    object-fit:cover;
 }
