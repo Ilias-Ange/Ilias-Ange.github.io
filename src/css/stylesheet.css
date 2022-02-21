@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+}
+
+/*header*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    background-color: bisque;
+}
+
+#headline {
+    margin: 0 auto;
+    padding: 15px auto;
+}
+
+#global-nav {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    width: 15%;
+}
+
+/*main*/
+
+.main {
+    padding-top: 200px;
+}
+
+/*Onigiri*/
+.route-menu li {
+    float: left;
+    list-style: none;
+    padding: 33px 20px;
+}
