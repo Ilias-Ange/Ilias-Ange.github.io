@@ -32,7 +32,7 @@ section.container {
 }
 
 [id^="R"] {
-    background-color: lawngreen;
+    background-color: rgb(136, 190, 188);
     border-radius: 20px;
 }
 
