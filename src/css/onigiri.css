@@ -51,6 +51,7 @@ section.container {
     background-color: rgb(50, 212, 202);
     border-radius: 20px;
     width: 100%;
+    height: 600px;
 }
 
 section.container img {
@@ -87,6 +88,9 @@ section.container img {
     }
     .main{
         padding: 500px 20px;
+    }
+    [id^="R"] {
+        height: 450px;
     }    
 }
 
