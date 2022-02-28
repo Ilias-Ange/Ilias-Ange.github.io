@@ -13,7 +13,8 @@ body {
 }
 
 .main {
-    padding: 200px 120px;
+    /*padding: 200px 120px;*/
+    width: auto;
 }
 
 
