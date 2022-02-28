@@ -84,4 +84,7 @@ body {
         list-style: none;
         width: 100%;
     }
+    #update-history {
+        margin-top: 500px;
+    }
 }
