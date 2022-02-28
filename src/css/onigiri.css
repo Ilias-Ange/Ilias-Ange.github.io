@@ -33,7 +33,6 @@ body {
     margin-left: auto;
 }
 
-
 section.container {
     /*background-color: aquamarine;*/
     justify-items: center;
@@ -49,7 +48,7 @@ section.container {
 }
 
 [id^="R"] {
-    background-color: rgb(136, 190, 188);
+    background-color: rgb(50, 212, 202);
     border-radius: 20px;
     width: 100%;
 }
