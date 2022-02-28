@@ -53,5 +53,8 @@ section.container img {
 @media screen and (max-width: 480px) {
     section.container {
         grid-template-columns: repeat(1,1fr);
+    }
+    .main{
+        padding: 600px 20px;
     }    
 }
