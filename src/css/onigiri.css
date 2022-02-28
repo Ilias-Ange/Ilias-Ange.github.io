@@ -16,7 +16,8 @@ body {
 .main {
     /*padding: 200px 120px;*/
     padding: 200px 120px;
-    margin: 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -48,13 +49,18 @@ section.container img {
 
 @media screen and (max-width: 959px){
     section.container {
-        background-color: green;
+        background-color: rebeccapurple;
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
 @media screen and (max-width: 480px) {
     section.container {
         grid-template-columns: repeat(2,1fr);
+    }
+    section.container img {
+        width: 140px;
+        height: 140px;
     }
     .main{
         padding: 500px 20px;
