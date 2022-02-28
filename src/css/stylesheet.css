@@ -16,7 +16,7 @@ body {
     margin: 10px;
     padding: 15px auto;
 }
-
+/*
 #global-nav {
     text-align: center;
     margin: 0 auto;
@@ -28,6 +28,14 @@ body {
     display: inline-block;
     margin: 0 20px;
     width: 15%;
+}*/
+#global-nav ul {
+    display: flex;
+    text-align: center;
+}
+.menu-item {
+    list-style: none;
+    width: 100%;
 }
 
 /*main*/
@@ -50,3 +58,23 @@ body {
     padding: 33px 20px;
 }
 
+@media screen and (max-width: 1279px){
+    
+}
+
+@media screen and (max-width: 959px){
+    
+}
+
+@media screen and (max-width: 480px){
+    #global-nav ul {
+        display: flex;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menu-item {
+        list-style: none;
+        width: 100%;
+    }
+}
