@@ -62,7 +62,6 @@ section.container img {
 
 @media screen and (max-width: 959px){
     section.container {
-        background-color: rebeccapurple;
         grid-template-columns: repeat(3,1fr);
     }
 }
