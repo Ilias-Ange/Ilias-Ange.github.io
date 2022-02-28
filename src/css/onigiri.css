@@ -16,6 +16,7 @@ body {
 .main {
     /*padding: 200px 120px;*/
     padding: 200px 120px;
+    margin: 0px 0px;
 }
 
 
@@ -36,6 +37,7 @@ section.container {
 [id^="R"] {
     background-color: rgb(136, 190, 188);
     border-radius: 20px;
+    width: 300px;
 }
 
 section.container img {
@@ -46,13 +48,13 @@ section.container img {
 
 @media screen and (max-width: 959px){
     section.container {
-        background-color: red;
+        background-color: blue;
     }
 }
 
 @media screen and (max-width: 480px) {
     section.container {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .main{
         padding: 600px 20px;
