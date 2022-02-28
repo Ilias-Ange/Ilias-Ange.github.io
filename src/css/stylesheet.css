@@ -40,6 +40,9 @@ body {
     display:flex;
     list-style: none;
 }
+#SNS li {
+    list-style: none;
+}
 /*Onigiri*/
 .route-menu li {
     float: left;
