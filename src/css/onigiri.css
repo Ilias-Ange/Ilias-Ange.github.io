@@ -37,7 +37,7 @@ section.container {
 [id^="R"] {
     background-color: rgb(136, 190, 188);
     border-radius: 20px;
-    width: 300px;
+    width: 100%;
 }
 
 section.container img {
@@ -48,7 +48,7 @@ section.container img {
 
 @media screen and (max-width: 959px){
     section.container {
-        background-color: blue;
+        background-color: green;
     }
 }
 
@@ -57,6 +57,6 @@ section.container img {
         grid-template-columns: repeat(2,1fr);
     }
     .main{
-        padding: 600px 20px;
+        padding: 500px 20px;
     }    
 }
