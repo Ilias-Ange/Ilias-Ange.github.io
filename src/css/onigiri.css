@@ -67,6 +67,11 @@ section.container img {
 }
 
 @media screen and (max-width: 480px) { /*smart phone*/
+    .route-menu li {
+        float: left;
+        list-style: none;
+        padding: 33px 20px;
+    }
     section.container {
         grid-template-columns: repeat(2,1fr);
     }
