@@ -51,6 +51,16 @@ body {
 #SNS li {
     list-style: none;
 }
+
+/*countdown*/
+.time-container {
+    display: flex;
+}
+.time {
+    margin: 5px;
+    font-size: 24px;
+}
+
 /*Onigiri*/
 .route-menu li {
     float: left;
