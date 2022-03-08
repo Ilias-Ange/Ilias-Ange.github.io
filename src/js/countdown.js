@@ -36,10 +36,6 @@ function countdown(){
     die_hour.innerHTML=calcHour2<10 ? '0'+calcHour2:calcHour2;
     die_min.innerHTML=calcMin2<10 ? '0'+calcMin2:calcMin2;
     die_sec.innerHTML=calcSec2<10 ? '0'+calcSec2:calcSec2;
-
-
-
-    
 }
 
 countdown();
