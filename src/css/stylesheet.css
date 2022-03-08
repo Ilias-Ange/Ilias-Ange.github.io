@@ -61,6 +61,36 @@ body {
     font-size: 24px;
 }
 
+/*Portfolio*/
+.portfolio-container {
+    /*
+    align-items: start;
+    border: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-bottom: 20px;*/
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.portfolio-img {
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 400px;
+}
+.portfolio-item {
+    width: 420px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+
 /*Onigiri*/
 .route-menu li {
     float: left;
