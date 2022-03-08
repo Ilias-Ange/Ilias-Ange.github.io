@@ -64,6 +64,7 @@ body {
 /*Portfolio*/
 .portfolio-container {
     display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     text-align: center;
     justify-content: center;
@@ -118,5 +119,13 @@ body {
     }
     #update-history {
         margin-top: 300px;
+    }
+
+    /*Portfolio*/
+    .portfolio-img {
+        width: 100%;
+    }
+    .portfolio-item {
+        width: 100%;
     }
 }
