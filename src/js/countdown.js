@@ -24,7 +24,7 @@ function countdown(){
     ye_sec.innerHTML=calcSec<10 ? '0'+calcSec:calcSec;
 
 
-    const year_end2=new Date(2080,10,14,23,59,59);
+    const year_end2=new Date(2080,12,31,23,59,59);
     const diff2=year_end2.getTime()-now.getTime(); //miliseconds
 
     const calcDay2=Math.floor(diff2/1000/86400);
