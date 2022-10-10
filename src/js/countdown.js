@@ -23,7 +23,7 @@ function countdown(){
     ye_min.innerHTML=calcMin<10 ? '0'+calcMin:calcMin;
     ye_sec.innerHTML=calcSec<10 ? '0'+calcSec:calcSec;
 
-
+    /*
     const year_end2=new Date(2080,12,31,23,59,59);
     const diff2=year_end2.getTime()-now.getTime(); //miliseconds
 
@@ -36,6 +36,7 @@ function countdown(){
     die_hour.innerHTML=calcHour2<10 ? '0'+calcHour2:calcHour2;
     die_min.innerHTML=calcMin2<10 ? '0'+calcMin2:calcMin2;
     die_sec.innerHTML=calcSec2<10 ? '0'+calcSec2:calcSec2;
+    */
 }
 
 countdown();
