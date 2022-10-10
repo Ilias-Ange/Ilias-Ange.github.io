@@ -23,7 +23,7 @@ function countdown(){
     ye_min.innerHTML=calcMin<10 ? '0'+calcMin:calcMin;
     ye_sec.innerHTML=calcSec<10 ? '0'+calcSec:calcSec;
 
-    /*
+    
     const year_end2=new Date(2080,12,31,23,59,59);
     const diff2=year_end2.getTime()-now.getTime(); //miliseconds
 
@@ -32,11 +32,11 @@ function countdown(){
     const calcMin2=Math.floor(diff2/1000/60)%60;
     const calcSec2=Math.floor(diff2/1000)%60;
 
-    die_day.innerHTML=calcDay2<10 ? '0'+calcDay2:calcDay2;
-    die_hour.innerHTML=calcHour2<10 ? '0'+calcHour2:calcHour2;
-    die_min.innerHTML=calcMin2<10 ? '0'+calcMin2:calcMin2;
-    die_sec.innerHTML=calcSec2<10 ? '0'+calcSec2:calcSec2;
-    */
+    x_day.innerHTML=calcDay2<10 ? '0'+calcDay2:calcDay2;
+    x_hour.innerHTML=calcHour2<10 ? '0'+calcHour2:calcHour2;
+    x_min.innerHTML=calcMin2<10 ? '0'+calcMin2:calcMin2;
+    x_sec.innerHTML=calcSec2<10 ? '0'+calcSec2:calcSec2;
+    
 }
 
 countdown();
