@@ -1,3 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main {
-    background-image: url("../img/Photo-studio/表紙_IMG_0502_retouch.jpg");
+    height: 1200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.main img {
+    display: block;
+    margin: auto;
+}
+
+/*header*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+}
+
+#headline {
+    margin: 10px;
+    padding: 15px auto;
+}
+#global-nav ul {
+    display: flex;
+    text-align: center;
+}
+.menu-item {
+    list-style: none;
+    width: 100%;
 }
