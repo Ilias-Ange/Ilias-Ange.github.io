@@ -1,5 +1,6 @@
 img/Onigiri/removeExif.cmd
 img/Onigiri/henkan.bat
+img/Onigiri/tmp
 img/before_processing
 create_text.cpp
 create_text.exe
