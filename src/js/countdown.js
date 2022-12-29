@@ -10,7 +10,7 @@ const die_sec=document.getElementById("die_sec")
 
 function countdown(){
     const now=new Date();
-    const year_end=new Date(now.getFullYear(),12,31,23,59,59);
+    const year_end=new Date(now.getFullYear(),11,31,23,59,59);
     const diff=year_end.getTime()-now.getTime(); //miliseconds
 
     const calcDay=Math.floor(diff/1000/86400);
