@@ -3,10 +3,10 @@ const ye_hour=document.getElementById("ye_hour")
 const ye_min=document.getElementById("ye_min")
 const ye_sec=document.getElementById("ye_sec")
 
-const die_day=document.getElementById("die_day")
-const die_hour=document.getElementById("die_hour")
-const die_min=document.getElementById("die_min")
-const die_sec=document.getElementById("die_sec")
+const x_day=document.getElementById("x_day")
+const x_hour=document.getElementById("x_hour")
+const x_min=document.getElementById("x_min")
+const x_sec=document.getElementById("x_sec")
 
 function countdown(){
     const now=new Date();
